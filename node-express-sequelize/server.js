@@ -14,6 +14,9 @@ app.get('/users', function (req, res) {
 });
 
 
+User.findAll({})
+
+
 
 module.exports = { 
   app: app,
