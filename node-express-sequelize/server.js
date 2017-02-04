@@ -14,7 +14,9 @@ app.get('/users', function (req, res) {
 });
 
 
-User.findAll({})
+User.findAll({}).then(function(res){
+	res.
+})
 
 
 
